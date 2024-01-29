@@ -1,0 +1,31 @@
+# vsim -voptargs="+acc" work.tb_harvest_crp 
+# Start time: 13:59:15 on Oct 16,2023
+# Loading work.tb_harvest_crp
+# Loading work.arbiter_puf
+# Loading work.nC_puf
+# Loading work.singleRound_puf
+# Loading work.mux
+# Loading work.process_delay_model
+# Loading work.D_flip_flop
+run -all
+# Challenge: 0000, Response: 11010110000010111010110011001011
+# Challenge: 0001, Response: 11011110001010010111110111011011
+# Challenge: 0010, Response: 01111111101000000101101101010010
+# Challenge: 0011, Response: 01110111010001011110101001010010
+# Challenge: 0100, Response: 00110101001001000101001101010000
+# Challenge: 0101, Response: 10110101000101001101001101010100
+# Challenge: 0110, Response: 11110100000001111011010101010001
+# Challenge: 0111, Response: 11110000000001000011110101010001
+# Challenge: 1000, Response: 00110001100101000101001100110100
+# Challenge: 1001, Response: 10100101000101111101001110110100
+# Challenge: 1010, Response: 10000000000111111011010110110101
+# Challenge: 1011, Response: 11011000000101110011010110110101
+# Challenge: 1100, Response: 11001100010010111010110010101011
+# Challenge: 1101, Response: 11011000100010110111110110101011
+# Challenge: 1110, Response: 00011111111110010101101110110010
+# Challenge: 1111, Response: 00000111010110011110101010100110
+# ** Note: $stop    : ../tb/tb_harvest_crp.v(71)
+#    Time: 1504 ps  Iteration: 0  Instance: /tb_harvest_crp
+# Break in Module tb_harvest_crp at ../tb/tb_harvest_crp.v line 71
+# End time: 17:04:11 on Oct 16,2023, Elapsed time: 3:04:56
+# Errors: 0, Warnings: 0

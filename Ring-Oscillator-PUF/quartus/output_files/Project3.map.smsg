@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at Counter_group.v(53): always construct contains both blocking and non-blocking assignments File: /home/cen598/Documents/CSE598_Project3_Handout/project3_part2/sources/Counter_group.v Line: 53

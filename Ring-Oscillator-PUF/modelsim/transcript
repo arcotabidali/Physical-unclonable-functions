@@ -1,0 +1,26 @@
+# vsim -voptargs="+acc" work.tb_Counter_group 
+# Start time: 19:13:16 on Oct 18,2023
+# Loading work.tb_Counter_group
+# Loading work.Counter_group
+# Loading work.Counter
+add wave -position insertpoint  \
+sim:/tb_Counter_group/RO_out \
+sim:/tb_Counter_group/Response \
+sim:/tb_Counter_group/reset \
+sim:/tb_Counter_group/Cha1 \
+sim:/tb_Counter_group/Cha0
+run
+# Response = 0
+# ** Note: $stop    : ../tb/tb_Counter_group.v(55)
+#    Time: 0 ps  Iteration: 2  Instance: /tb_Counter_group
+# Break in Module tb_Counter_group at ../tb/tb_Counter_group.v line 55
+run -all
+# Response = 1
+# ** Note: $stop    : ../tb/tb_Counter_group.v(55)
+#    Time: 1966095 ps  Iteration: 3  Instance: /tb_Counter_group
+# Break in Module tb_Counter_group at ../tb/tb_Counter_group.v line 55
+run -all
+# Break key hit
+# Break in Module tb_Counter_group at ../tb/tb_Counter_group.v line 38
+# End time: 19:14:11 on Oct 18,2023, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 0
